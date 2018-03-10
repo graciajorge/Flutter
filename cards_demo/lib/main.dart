@@ -49,8 +49,6 @@ class _CardDemoState extends State<CardDemoPage> with SingleTickerProviderStateM
     isBack? controller.reverse():controller.forward();
     isBack=!isBack;
   }
-
-
   @override
   Widget build(BuildContext context) {   
     return new Scaffold(
